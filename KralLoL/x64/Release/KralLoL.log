@@ -1,0 +1,13 @@
+﻿  DirectX.cpp
+D:\Lol Hileler\KralLoL-1.8.0\KralLoL\HTTP.h(126,1): warning C4267: 'bağımsız değişken': 'size_t' - 'DWORD' dönüşümü; veri kaybı olabilir
+D:\Lol Hileler\KralLoL-1.8.0\KralLoL\HTTP.h(130,1): warning C4267: 'bağımsız değişken': 'size_t' - 'DWORD' dönüşümü; veri kaybı olabilir
+D:\Lol Hileler\KralLoL-1.8.0\KralLoL\MiscTab.h(21,1): warning C4267: 'başlatılıyor': 'size_t' - 'int' dönüşümü; veri kaybı olabilir
+D:\Lol Hileler\KralLoL-1.8.0\KralLoL\MiscTab.h(22,1): warning C4267: 'başlatılıyor': 'size_t' - 'int' dönüşümü; veri kaybı olabilir
+D:\Lol Hileler\KralLoL-1.8.0\KralLoL\SkinsTab.h(92,17): warning C4244: '=': 'int' - 'short' dönüşümü; veri kaybı olabilir
+D:\Lol Hileler\KralLoL-1.8.0\KralLoL\ChampsTab.h(140,17): warning C4244: '=': 'int' - 'short' dönüşümü; veri kaybı olabilir
+  Kod üretiliyor
+  18 of 5176 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    34 functions had inline decision re-evaluated but remain unchanged
+  Kodun üretilmesi tamamlandı
+  KralLoL.vcxproj -> D:\Lol Hileler\KralLoL-1.8.0\x64\Release\KralLoL.exe

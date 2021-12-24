@@ -1,0 +1,4614 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6800",
+          "message": {
+            "text": "/analyze:ruleset veya /external:analyze:ruleset aracılığıyla belirtilen kural kümesi dosyası başarıyla ayrıştırılamadığından yoksayılacak."
+          },
+          "locations": []
+        },
+        {
+          "ruleId": "C6800",
+          "message": {
+            "text": "/analyze:ruleset veya /external:analyze:ruleset aracılığıyla belirtilen kural kümesi dosyası başarıyla ayrıştırılamadığından yoksayılacak."
+          },
+          "locations": []
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "'Base64::is_base64' işlevi 'noexcept' olarak bildirilebilir (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 21,
+                  "endLine": 16,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::is_base64",
+                  "decoratedName": "?is_base64@Base64@@SA_NE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26429",
+          "message": {
+            "text": "'bytes_to_encode' sembolü null olma durumu için hiç test edilmedi, not_null olarak işaretlenebilir (f.23)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 14,
+                  "endLine": 20,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Encode",
+                  "decoratedName": "?Encode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBEI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26482",
+          "message": {
+            "text": "Dizilere dizinle erişmek için yalnızca sabit ifadeler kullanın (bounds.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 4,
+                  "endLine": 28,
+                  "endColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Encode",
+                  "decoratedName": "?Encode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBEI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "İşaretçi aritmetiği kullanmayın. Bunun yerine span kullanın (bounds.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 4,
+                  "endLine": 28,
+                  "endColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Encode",
+                  "decoratedName": "?Encode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBEI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26482",
+          "message": {
+            "text": "Dizilere dizinle erişmek için yalnızca sabit ifadeler kullanın (bounds.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 13,
+                  "endLine": 36,
+                  "endColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Encode",
+                  "decoratedName": "?Encode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBEI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26482",
+          "message": {
+            "text": "Dizilere dizinle erişmek için yalnızca sabit ifadeler kullanın (bounds.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 5,
+                  "endLine": 44,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Encode",
+                  "decoratedName": "?Encode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBEI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26482",
+          "message": {
+            "text": "Dizilere dizinle erişmek için yalnızca sabit ifadeler kullanın (bounds.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 12,
+                  "endLine": 52,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Encode",
+                  "decoratedName": "?Encode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBEI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Denetlenmeyen alt simge işleci (bounds.4) yerine gsl::at() kullanmayı tercih edin."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 4,
+                  "endLine": 28,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Encode",
+                  "decoratedName": "?Encode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBEI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Denetlenmeyen alt simge işleci (bounds.4) yerine gsl::at() kullanmayı tercih edin."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 26,
+                  "endLine": 36,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Encode",
+                  "decoratedName": "?Encode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBEI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Denetlenmeyen alt simge işleci (bounds.4) yerine gsl::at() kullanmayı tercih edin."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 13,
+                  "endLine": 36,
+                  "endColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Encode",
+                  "decoratedName": "?Encode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBEI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Denetlenmeyen alt simge işleci (bounds.4) yerine gsl::at() kullanmayı tercih edin."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 5,
+                  "endLine": 44,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Encode",
+                  "decoratedName": "?Encode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBEI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Denetlenmeyen alt simge işleci (bounds.4) yerine gsl::at() kullanmayı tercih edin."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 25,
+                  "endLine": 52,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Encode",
+                  "decoratedName": "?Encode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBEI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Denetlenmeyen alt simge işleci (bounds.4) yerine gsl::at() kullanmayı tercih edin."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 12,
+                  "endLine": 52,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Encode",
+                  "decoratedName": "?Encode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBEI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26494",
+          "message": {
+            "text": "'char_array_3' değişkeni başlatılmamış. Her zaman bir nesneyi başlatın (type.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 17,
+                  "endLine": 24,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Encode",
+                  "decoratedName": "?Encode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBEI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "char_array_3"
+          }
+        },
+        {
+          "ruleId": "C26494",
+          "message": {
+            "text": "'char_array_4' değişkeni başlatılmamış. Her zaman bir nesneyi başlatın (type.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 17,
+                  "endLine": 25,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Encode",
+                  "decoratedName": "?Encode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBEI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "char_array_4"
+          }
+        },
+        {
+          "ruleId": "C26482",
+          "message": {
+            "text": "Dizilere dizinle erişmek için yalnızca sabit ifadeler kullanın (bounds.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 4,
+                  "endLine": 70,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Decode",
+                  "decoratedName": "?Decode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26482",
+          "message": {
+            "text": "Dizilere dizinle erişmek için yalnızca sabit ifadeler kullanın (bounds.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Decode",
+                  "decoratedName": "?Decode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26482",
+          "message": {
+            "text": "Dizilere dizinle erişmek için yalnızca sabit ifadeler kullanın (bounds.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Decode",
+                  "decoratedName": "?Decode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26482",
+          "message": {
+            "text": "Dizilere dizinle erişmek için yalnızca sabit ifadeler kullanın (bounds.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 6,
+                  "endLine": 80,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Decode",
+                  "decoratedName": "?Decode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26482",
+          "message": {
+            "text": "Dizilere dizinle erişmek için yalnızca sabit ifadeler kullanın (bounds.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 5,
+                  "endLine": 87,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Decode",
+                  "decoratedName": "?Decode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26482",
+          "message": {
+            "text": "Dizilere dizinle erişmek için yalnızca sabit ifadeler kullanın (bounds.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Decode",
+                  "decoratedName": "?Decode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26482",
+          "message": {
+            "text": "Dizilere dizinle erişmek için yalnızca sabit ifadeler kullanın (bounds.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Decode",
+                  "decoratedName": "?Decode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26482",
+          "message": {
+            "text": "Dizilere dizinle erişmek için yalnızca sabit ifadeler kullanın (bounds.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 34,
+                  "endLine": 96,
+                  "endColumn": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Decode",
+                  "decoratedName": "?Decode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Denetlenmeyen alt simge işleci (bounds.4) yerine gsl::at() kullanmayı tercih edin."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 23,
+                  "endLine": 69,
+                  "endColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Decode",
+                  "decoratedName": "?Decode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Denetlenmeyen alt simge işleci (bounds.4) yerine gsl::at() kullanmayı tercih edin."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 64,
+                  "endLine": 69,
+                  "endColumn": 82
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Decode",
+                  "decoratedName": "?Decode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Denetlenmeyen alt simge işleci (bounds.4) yerine gsl::at() kullanmayı tercih edin."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 24,
+                  "endLine": 70,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Decode",
+                  "decoratedName": "?Decode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Denetlenmeyen alt simge işleci (bounds.4) yerine gsl::at() kullanmayı tercih edin."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 4,
+                  "endLine": 70,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Decode",
+                  "decoratedName": "?Decode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Denetlenmeyen alt simge işleci (bounds.4) yerine gsl::at() kullanmayı tercih edin."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 69,
+                  "endLine": 73,
+                  "endColumn": 83
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Decode",
+                  "decoratedName": "?Decode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Denetlenmeyen alt simge işleci (bounds.4) yerine gsl::at() kullanmayı tercih edin."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 6,
+                  "endLine": 73,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Decode",
+                  "decoratedName": "?Decode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Denetlenmeyen alt simge işleci (bounds.4) yerine gsl::at() kullanmayı tercih edin."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 13,
+                  "endLine": 80,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Decode",
+                  "decoratedName": "?Decode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Denetlenmeyen alt simge işleci (bounds.4) yerine gsl::at() kullanmayı tercih edin."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 5,
+                  "endLine": 87,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Decode",
+                  "decoratedName": "?Decode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Denetlenmeyen alt simge işleci (bounds.4) yerine gsl::at() kullanmayı tercih edin."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 68,
+                  "endLine": 90,
+                  "endColumn": 82
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Decode",
+                  "decoratedName": "?Decode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Denetlenmeyen alt simge işleci (bounds.4) yerine gsl::at() kullanmayı tercih edin."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 5,
+                  "endLine": 90,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Decode",
+                  "decoratedName": "?Decode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26446",
+          "message": {
+            "text": "Denetlenmeyen alt simge işleci (bounds.4) yerine gsl::at() kullanmayı tercih edin."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 41,
+                  "endLine": 96,
+                  "endColumn": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Decode",
+                  "decoratedName": "?Decode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26494",
+          "message": {
+            "text": "'char_array_3' değişkeni başlatılmamış. Her zaman bir nesneyi başlatın (type.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 34,
+                  "endLine": 66,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Decode",
+                  "decoratedName": "?Decode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "char_array_3"
+          }
+        },
+        {
+          "ruleId": "C26494",
+          "message": {
+            "text": "'char_array_4' değişkeni başlatılmamış. Her zaman bir nesneyi başlatın (type.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 17,
+                  "endLine": 66,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Decode",
+                  "decoratedName": "?Decode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "char_array_4"
+          }
+        },
+        {
+          "ruleId": "C26472",
+          "message": {
+            "text": "Aritmetik dönüştürmeler için static_cast kullanmayın. Küme ayracı başlatma (gsl::narrow_cast veya gsl::narrow) kullanın (type.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Decode",
+                  "decoratedName": "?Decode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26472",
+          "message": {
+            "text": "Aritmetik dönüştürmeler için static_cast kullanmayın. Küme ayracı başlatma (gsl::narrow_cast veya gsl::narrow) kullanın (type.1)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+                },
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Base64::Decode",
+                  "decoratedName": "?Decode@Base64@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26455",
+          "message": {
+            "text": "Varsayılan oluşturucu throw işlemi oluşturamaz. 'noexcept' olarak bildirin (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Utils.h"
+                },
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 2,
+                  "endLine": 11,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Utils::{ctor}",
+                  "decoratedName": "??0Utils@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C28251",
+          "message": {
+            "text": "'NTSTATUS' için tutarsız ek açıklama: bu örnek hiçbir ek açıklama öğesine sahip. d:\\windows kits\\10\\include\\10.0.19041.0\\shared\\bcrypt.h(39) öğesine göz atın. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/NtQueryInfoProc.h"
+                },
+                "region": {
+                  "startLine": 348,
+                  "startColumn": 14,
+                  "endLine": 348,
+                  "endColumn": 14
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "'m_Test' ifadesi: İşaretçi bozulmasını gösteren dizi yok (bounds.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 3,
+                  "endLine": 25,
+                  "endColumn": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Auth::GetRiotClientInfo",
+                  "decoratedName": "?GetRiotClientInfo@Auth@@QEAA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "'m_Test' ifadesi: İşaretçi bozulmasını gösteren dizi yok (bounds.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 15,
+                  "endLine": 26,
+                  "endColumn": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Auth::GetRiotClientInfo",
+                  "decoratedName": "?GetRiotClientInfo@Auth@@QEAA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "'m_Test' ifadesi: İşaretçi bozulmasını gösteren dizi yok (bounds.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 3,
+                  "endLine": 77,
+                  "endColumn": 48
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Auth::GetLeagueClientInfo",
+                  "decoratedName": "?GetLeagueClientInfo@Auth@@QEAA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "'m_Test' ifadesi: İşaretçi bozulmasını gösteren dizi yok (bounds.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 17,
+                  "endLine": 78,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Auth::GetLeagueClientInfo",
+                  "decoratedName": "?GetLeagueClientInfo@Auth@@QEAA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'Temp_value_#16036', '0' olabilir:  bu durum 'GetProcAddress' işlevinin belirtimine bağlı kalmıyor. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Auth::GetProcessCommandLine",
+                  "decoratedName": "?GetProcessCommandLine@Auth@@AEAA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 130,
+                            "startColumn": 33
+                          }
+                        },
+                        "message": {
+                          "text": "'<sembol>','GetModuleHandleA' (d:\\windows kits\\10\\include\\10.0.19041.0\\um\\libloaderapi.h:260 konumunda belirtilen) öğesinden geri dönüş değeri alır"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 109,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 110,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 112,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 113,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "Bu dala gir, ('<dallanma koşulu>' olduğunu varsayın)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 116,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 117,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Bu dala gir, ('<dallanma koşulu>' olduğunu varsayın)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 121,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 122,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 123,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Bu dala gir, ('<dallanma koşulu>' olduğunu varsayın)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 125,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 126,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 128,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 129,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 130,
+                            "startColumn": 33
+                          }
+                        },
+                        "message": {
+                          "text": "'<sembol>','GetModuleHandleA' (d:\\windows kits\\10\\include\\10.0.19041.0\\um\\libloaderapi.h:260 konumunda belirtilen) öğesinden geri dönüş değeri alır"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 130,
+                            "startColumn": 33
+                          }
+                        },
+                        "message": {
+                          "text": "'Temp_value_#16036' NULL olmamalı, çünkü bu, 'GetProcAddress'üzerindeki SAL ek açıklamasıyla uyumsuz"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'pRtlProcParam', '0' olabilir:  bu durum 'ReadProcessMemory' işlevinin belirtimine bağlı kalmıyor. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 142,
+                  "startColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Auth::GetProcessCommandLine",
+                  "decoratedName": "?GetProcessCommandLine@Auth@@AEAA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 109,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 110,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 112,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 113,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 116,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 117,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 121,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 122,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 123,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 125,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 126,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 128,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 129,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "'peb.ProcessParameters' öğesi NULL olabilir"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 130,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 132,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 134,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "Bu dallanmayı atla, ('(NTSTATUS)(status)>=0' öğesinin yanlış olduğunu varsay)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 138,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "(alias) 'pRtlProcParam', 'peb.ProcessParameters' öğesinin (NULL olabilecek) değerini alır "
+                        }
+                      },
+                      "kinds": [
+                        "alias"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 139,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 142,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'pRtlProcParam', 'ReadProcessMemory' öğesine bir giriştir (d:\\windows kits\\10\\include\\10.0.19041.0\\um\\memoryapi.h:159 konumunda belirtilen)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 142,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'pRtlProcParam' NULL olmamalı, çünkü bu, 'ReadProcessMemory'üzerindeki SAL ek açıklamasıyla uyumsuz"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'pRtlProcParamCopy', '0' olabilir:  bu durum 'ReadProcessMemory' işlevinin belirtimine bağlı kalmıyor. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 142,
+                  "startColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Auth::GetProcessCommandLine",
+                  "decoratedName": "?GetProcessCommandLine@Auth@@AEAA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 109,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 110,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 112,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 113,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 116,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 117,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 121,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 122,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 123,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 125,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 126,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 128,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 129,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 130,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 132,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 134,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 138,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 139,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "'pRtlProcParamCopy' öğesi NULL olabilir"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 142,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'pRtlProcParamCopy', 'ReadProcessMemory' öğesine bir giriştir (d:\\windows kits\\10\\include\\10.0.19041.0\\um\\memoryapi.h:159 konumunda belirtilen)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 142,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'pRtlProcParamCopy' NULL olmamalı, çünkü bu, 'ReadProcessMemory'üzerindeki SAL ek açıklamasıyla uyumsuz"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'wBufferCopy', '0' olabilir:  bu durum 'ReadProcessMemory' işlevinin belirtimine bağlı kalmıyor. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 150,
+                  "startColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Auth::GetProcessCommandLine",
+                  "decoratedName": "?GetProcessCommandLine@Auth@@AEAA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 109,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 110,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 112,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 113,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 116,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 117,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 121,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 122,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 123,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 125,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 126,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 128,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 129,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 130,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 132,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 134,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 138,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 139,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 142,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 147,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 148,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 149,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "'wBufferCopy' öğesi NULL olabilir"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 150,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "'wBufferCopy', 'ReadProcessMemory' öğesine bir giriştir (d:\\windows kits\\10\\include\\10.0.19041.0\\um\\memoryapi.h:159 konumunda belirtilen)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 150,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "'wBufferCopy' NULL olmamalı, çünkü bu, 'ReadProcessMemory'üzerindeki SAL ek açıklamasıyla uyumsuz"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": " 'pRtlProcParamCopy' NULL işaretçisine başvuruluyor. Bunun oluşabileceği önceki bir yer için 144 satırına bakın"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 147,
+                  "startColumn": 12,
+                  "endLine": 147,
+                  "endColumn": 52
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Auth::GetProcessCommandLine",
+                  "decoratedName": "?GetProcessCommandLine@Auth@@AEAA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 109,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 110,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 112,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 113,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 116,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 117,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 121,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 122,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 123,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 125,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 126,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 128,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 129,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 130,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 132,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 134,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 138,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 139,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "'pRtlProcParamCopy' öğesi NULL olabilir"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 142,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'pRtlProcParamCopy', 'ReadProcessMemory' öğesine bir giriştir (d:\\windows kits\\10\\include\\10.0.19041.0\\um\\memoryapi.h:159 konumunda belirtilen)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 147,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "'pRtlProcParamCopy' referans edildi, ancak hala NULL olabilir"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'wBufferCopy', '0' olabilir:  bu durum 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >::{ctor}' işlevinin belirtimine bağlı kalmıyor. Bunun oluşabileceği önceki bir yer için 152 satırına bakın"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 156,
+                  "startColumn": 6,
+                  "endLine": 156,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Auth::GetProcessCommandLine",
+                  "decoratedName": "?GetProcessCommandLine@Auth@@AEAA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 109,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 110,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 112,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 113,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 116,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 117,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 121,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 122,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 123,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 125,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 126,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 128,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 129,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 130,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 132,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 134,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 138,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 139,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 142,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 147,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 148,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 149,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "'wBufferCopy' öğesi NULL olabilir"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 150,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "'wBufferCopy', 'ReadProcessMemory' öğesine bir giriştir (d:\\windows kits\\10\\include\\10.0.19041.0\\um\\memoryapi.h:159 konumunda belirtilen)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 156,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "'wBufferCopy', 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >::{ctor}' öğesine bir giriştir (d:\\visual-pack\\vsuİte\\2022\\professional\\vc\\tools\\msvc\\14.30.30705\\include\\xstring:2526 konumunda belirtilen)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                          },
+                          "region": {
+                            "startLine": 156,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "'wBufferCopy' NULL olmamalı, çünkü bu, 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >::{ctor}'üzerindeki SAL ek açıklamasıyla uyumsuz"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "'status' değişkeni, oluşturma işleminden sonra değişmez, değişkeni const (con.4) olarak işaretleyin."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 132,
+                  "startColumn": 15,
+                  "endLine": 132,
+                  "endColumn": 102
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Auth::GetProcessCommandLine",
+                  "decoratedName": "?GetProcessCommandLine@Auth@@AEAA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26462",
+          "message": {
+            "text": "'pRtlProcParam' öğesinin işaret ettiği değer yalnızca bir kez atanmış, const işaretçisi olarak işaretleyin (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 138,
+                  "startColumn": 35,
+                  "endLine": 138,
+                  "endColumn": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Auth::GetProcessCommandLine",
+                  "decoratedName": "?GetProcessCommandLine@Auth@@AEAA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26462",
+          "message": {
+            "text": "'wBuffer' öğesinin işaret ettiği değer yalnızca bir kez atanmış, const işaretçisi olarak işaretleyin (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 147,
+                  "startColumn": 12,
+                  "endLine": 147,
+                  "endColumn": 52
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Auth::GetProcessCommandLine",
+                  "decoratedName": "?GetProcessCommandLine@Auth@@AEAA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "'len' değişkeni, oluşturma işleminden sonra değişmez, değişkeni const (con.4) olarak işaretleyin."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 148,
+                  "startColumn": 13,
+                  "endLine": 148,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Auth::GetProcessCommandLine",
+                  "decoratedName": "?GetProcessCommandLine@Auth@@AEAA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26408",
+          "message": {
+            "text": "malloc() ve free() çağrısından kaçının. new çağrısının delete içeren nothrow sürümünü tercih edin (r.10)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 37,
+                  "endLine": 140,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Auth::GetProcessCommandLine",
+                  "decoratedName": "?GetProcessCommandLine@Auth@@AEAA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26408",
+          "message": {
+            "text": "malloc() ve free() çağrısından kaçının. new çağrısının delete içeren nothrow sürümünü tercih edin (r.10)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 149,
+                  "startColumn": 33,
+                  "endLine": 149,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Auth::GetProcessCommandLine",
+                  "decoratedName": "?GetProcessCommandLine@Auth@@AEAA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26429",
+          "message": {
+            "text": "'NtQueryInformationProcess' sembolü null olma durumu için hiç test edilmedi, not_null olarak işaretlenebilir (f.23)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Auth::GetProcessCommandLine",
+                  "decoratedName": "?GetProcessCommandLine@Auth@@AEAA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "'temp' ifadesi: İşaretçi bozulmasını gösteren dizi yok (bounds.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 122,
+                  "startColumn": 5,
+                  "endLine": 122,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Auth::GetProcessCommandLine",
+                  "decoratedName": "?GetProcessCommandLine@Auth@@AEAA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "'entry.szExeFile' ifadesi: İşaretçi bozulmasını gösteren dizi yok (bounds.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 122,
+                  "startColumn": 5,
+                  "endLine": 122,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Auth::GetProcessCommandLine",
+                  "decoratedName": "?GetProcessCommandLine@Auth@@AEAA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "'temp' ifadesi: İşaretçi bozulmasını gösteren dizi yok (bounds.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 10,
+                  "endLine": 123,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Auth::GetProcessCommandLine",
+                  "decoratedName": "?GetProcessCommandLine@Auth@@AEAA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26494",
+          "message": {
+            "text": "'Handle' değişkeni başlatılmamış. Her zaman bir nesneyi başlatın (type.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 9,
+                  "endLine": 110,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Auth::GetProcessCommandLine",
+                  "decoratedName": "?GetProcessCommandLine@Auth@@AEAA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Handle"
+          }
+        },
+        {
+          "ruleId": "C26494",
+          "message": {
+            "text": "'pbi' değişkeni başlatılmamış. Her zaman bir nesneyi başlatın (type.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 128,
+                  "startColumn": 32,
+                  "endLine": 128,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Auth::GetProcessCommandLine",
+                  "decoratedName": "?GetProcessCommandLine@Auth@@AEAA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pbi"
+          }
+        },
+        {
+          "ruleId": "C26476",
+          "message": {
+            "text": "'{0}' ifadesi/sembolü birden fazla tür işaretçisi ile 'union _PEB::<unnamed-type-u3>' çıplak birleşimini kullanıyor: Bunun yerine variant kullanın (type.7)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 129,
+                  "startColumn": 10,
+                  "endLine": 129,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Auth::GetProcessCommandLine",
+                  "decoratedName": "?GetProcessCommandLine@Auth@@AEAA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26493",
+          "message": {
+            "text": "C stili yayınlar kullanmayın (type.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 131,
+                  "startColumn": 7,
+                  "endLine": 131,
+                  "endColumn": 81
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Auth::GetProcessCommandLine",
+                  "decoratedName": "?GetProcessCommandLine@Auth@@AEAA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26493",
+          "message": {
+            "text": "C stili yayınlar kullanmayın (type.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 7,
+                  "endLine": 140,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Auth::GetProcessCommandLine",
+                  "decoratedName": "?GetProcessCommandLine@Auth@@AEAA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26493",
+          "message": {
+            "text": "C stili yayınlar kullanmayın (type.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 149,
+                  "startColumn": 26,
+                  "endLine": 149,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Auth::GetProcessCommandLine",
+                  "decoratedName": "?GetProcessCommandLine@Auth@@AEAA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26426",
+          "message": {
+            "text": "Genel başlatıcı constexpr olmayan 'operator new' işlevini çağırıyor (i.22)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 168,
+                  "startColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "`dynamic initializer for 'auth''",
+                  "decoratedName": "??__Eauth@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26409",
+          "message": {
+            "text": "Açıkça new ve delete çağrısı yapmaktan kaçının. Bunun yerine std::make_unique<T> kullanın (r.11)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+                },
+                "region": {
+                  "startLine": 168,
+                  "startColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "auth",
+                  "decoratedName": "?auth@@3PEAVAuth@@EA",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.30.30705.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "D:\\Visual-Pack\\VSUİTE\\2022\\Professional\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\c1xx.dll -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF6B1F90C80 -il C:\\Users\\desta\\AppData\\Local\\Temp\\_CL_d71628dcast -typedil -f Auth.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1930 -D_MSC_FULL_VER=193030705 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -I C:\\Users\\desta\\Downloads\\KBotExt-main\\KBotExt-main\\KralLoL -I C:\\Users\\desta\\Downloads\\KBotExt-main\\KBotExt-main\\KralLoL\\imgui -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_WINDOWS -D_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING -D_SILENCE_CXX17_OLD_ALLOCATOR_MEMBERS_DEPRECATION_WARNING -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -Zc:wchar_t -Zc:forScope -std:c++latest -permissive- -experimental:module -stdIfcDir D:\\Visual-Pack\\VSUİTE\\2022\\Professional\\VC\\Tools\\MSVC\\14.30.30705\\ifc\\x64 -Fox64\\Debug\\Auth.obj -Fdx64\\Debug\\vc143.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\desta\\Downloads\\KBotExt-main\\KBotExt-main\\KralLoL -analyze:rulesetdirectory ;D:\\Visual-Pack\\VSUİTE\\2022\\Professional\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset D:\\Visual-Pack\\VSUİTE\\2022\\Professional\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin D:\\Visual-Pack\\VSUİTE\\2022\\Professional\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I D:\\Visual-Pack\\VSUİTE\\2022\\Professional\\VC\\Tools\\MSVC\\14.30.30705\\include -I D:\\Visual-Pack\\VSUİTE\\2022\\Professional\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -I D:\\Visual-Pack\\VSUİTE\\2022\\Professional\\VC\\Auxiliary\\VS\\include -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I D:\\Visual-Pack\\VSUİTE\\2022\\Professional\\VC\\Tools\\MSVC\\14.30.30705\\include -I D:\\Visual-Pack\\VSUİTE\\2022\\Professional\\VC\\Tools\\MSVC\\14.30.30705\\include -external:I D:\\Visual-Pack\\VSUİTE\\2022\\Professional\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -I D:\\Visual-Pack\\VSUİTE\\2022\\Professional\\VC\\Tools\\MSVC\\14.30.30705\\atlmfc\\include -external:I D:\\Visual-Pack\\VSUİTE\\2022\\Professional\\VC\\Auxiliary\\VS\\include -I D:\\Visual-Pack\\VSUİTE\\2022\\Professional\\VC\\Auxiliary\\VS\\include -external:I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Utils.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "8909c4e5807f608ebdf62d0134562158bf2fc98a2e2c17cd214aac7d2d155f5d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Utils.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "682502b86fbc9bd24fbccb9e2c49dd26de9e0f7dc3d99653fcab47d421968881"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/desta/downloads/kbotext-main/kbotext-main/krallol/definitions.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "a92ae7b4a3cf0a5bd3c7eba54e2526c508d7b201ab1c0841bf9d7de54fe5b24d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/json/value.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "54a3aa7c8d06f8773dfbecbfeb9dc88885f1ec1fc02cfec2c6c4bc356a67b97e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/imgui/imgui.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "1716d476bee16632acbea13cc97195eeb3441b7dacaca96380e3c1bada6ee4fc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/DirectX.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "2a752b067bbb7d9781c05f752c1c6fb081a4d2ce09e0c0f49a529cfd11fad4ed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/base64.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "ac7a2f2125220176019d612a62809a7605539d7f97c45b8e943b9aee6096e7b1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Settings.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "a33eb1df7b9fc59210846c77887e3ca3875a4e90c171c6f24c97d126dde640e7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/KralLoL.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "025c6d76af1abac3504bee028d91eaf8e86e3e8707e99dce7103f02367cba182"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/desta/downloads/kbotext-main/kbotext-main/krallol/includes.h"
+          },
+          "hashes": {
+            "sha-256": "a4b210a7901a31ef562a6ee9a3b96d502d9359e5cd1e03b7771d77a4d8e85f3c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/desta/downloads/kbotext-main/kbotext-main/krallol/json/json.h"
+          },
+          "hashes": {
+            "sha-256": "05ccb35afa55a068f8cc2a195db46d89a7f6a458d1943ae009465834c6404a67"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/desta/downloads/kbotext-main/kbotext-main/krallol/json/config.h"
+          },
+          "hashes": {
+            "sha-256": "4bf6d8da48e85b2f2410a8ccd1c61a388daf3c66a82e98592c99a5815c4b719a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/desta/downloads/kbotext-main/kbotext-main/krallol/json/allocator.h"
+          },
+          "hashes": {
+            "sha-256": "2ccdebfdf76d3651ed9ceff89dc05a8e64d139e45ea6a280de153fb7fae56870"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/desta/downloads/kbotext-main/kbotext-main/krallol/json/version.h"
+          },
+          "hashes": {
+            "sha-256": "528690b85260c064a5e53ecb82601bf521dce082ba254f36a37eca16d8c141c2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/desta/downloads/kbotext-main/kbotext-main/krallol/json/json_features.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "21c8e12931c4e6e65ddcf557ddf64cf72e7c2d73aa0abcf071ebe1601741a7ac"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/desta/downloads/kbotext-main/kbotext-main/krallol/json/forwards.h"
+          },
+          "hashes": {
+            "sha-256": "10f31c266465d0ca4c8702eb9b0c7a9527cda8b6fc66ee98c879a8d08423a6d3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/desta/downloads/kbotext-main/kbotext-main/krallol/json/reader.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "5f4a035681b9c0af95332d169889e9473f81ae962d580a2a3709831c06b2fdc6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/desta/downloads/kbotext-main/kbotext-main/krallol/json/writer.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "783999120dfc34ce04e45c6ca0d136deae7e8d6462377b12159806862e2cadd1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/desta/downloads/kbotext-main/kbotext-main/krallol/imgui/imconfig.h"
+          },
+          "hashes": {
+            "sha-256": "5417df0de781ce5f0bdad340eea3a8e846bac95557fab43f2640c5b3eddd3eef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/desta/downloads/kbotext-main/kbotext-main/krallol/imgui/imgui_impl_win32.h"
+          },
+          "hashes": {
+            "sha-256": "9b287a4aca858bd974231ca73dce966ed8437e9512c65113c0bd58d7103c2509"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/desta/downloads/kbotext-main/kbotext-main/krallol/imgui/imgui_impl_dx11.h"
+          },
+          "hashes": {
+            "sha-256": "061818c5afa068c6ac7682bd171ba6a39001106c57aece8a862975b39ee81ea6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/desta/downloads/kbotext-main/kbotext-main/krallol/auth.h"
+          },
+          "hashes": {
+            "sha-256": "7619ccfac89d29bed7a46e808a19654edd7c85e2dda45c0a140746fe016c4cf7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/json/json_tool.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "18e34304f498a58df6fe1406dadfe4854ca426e2604fe19a8060a518d4b9afb6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/json/json_writer.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "7d7febd592cc216b2c0603a59a2bfb9319f71dec13d62bb4037dc157365ce0ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/json/json_value.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "995110ed23e08a4f5528c0577daec2bcf83d5ac87fd2983f5564912d33cfe5da"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/json/json_valueiterator.inl"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "35537cf5779caa8e04d14949037ce87c1cc581f5d01c85af76e0347195eec03a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/desta/downloads/kbotext-main/kbotext-main/krallol/json/assertions.h"
+          },
+          "hashes": {
+            "sha-256": "dd8eb28e603abb9ce048cecdc326ae4956fa0c3addb4939bc3caa28368a01b70"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/json/json_reader.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "bfb4b84c1d49795450d58e02cecd2cb1ef909e82fceadad06cb299bfe518dfe0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/imgui/imgui_internal.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "6a159cf989e961a2644d3d9de91601460536655301fdac86f55eca7f2de561ff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/imgui/imgui_widgets.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "408e428fe5334908b85d5318730d9e9f0a59bbf1c1aed9cf37c34993194f45f8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/imgui/imstb_textedit.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "05432987d3aa15875dd5bcb559173aee5e625ddd263f6e0ff44efca5f775ea6e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/imgui/imgui_impl_win32.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "5baee67811b484dc900f4d4036e457b0abe0c776f946604623438628a0095b76"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/imgui/imgui_impl_dx11.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "b98ee3da8ce8c7d6e50b02b2e71789c9829a5dbd8f890f474c1197b64b6ac7dd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/imgui/imstb_rectpack.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "9064e070b4d7ba302a19495a099e3d8083a23e2a63842d7a0f08a76ec53de392"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/imgui/imstb_truetype.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "78d7cfd4d011666fb97358e6d7c3e01c1f0ae2eb5aaeb6fe543533b7333e89ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/imgui/imgui_draw.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e349e49ab8c5eb14fae34d5ee3d1d784e3ea7ac1dca15344d0d7b774c362bd60"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/imgui/imgui_demo.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "155eb33fc36eb2426544187f74ed6bb6fc087561c144b9ec4de89a480e53d64a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/imgui/imgui.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "23a0e14ed683bea9131571a8763bdd17f3cc6cef391e35dfd93eea0bbc2c3dc9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/HTTP.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "52e52fbf96a72e4364cff62b577d7ab0e0c781fd2ac1d7170c717751738184c4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Misc.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "3c10f8230a24677f790c11495ef51a57380e77bd018ef42b8948452ac2ad3327"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/GameTab.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "aa800cf68dd59509e2fd011ca544e376bb3b5beb4dbf0620017dd3baf66c0c89"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/InfoTab.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "afc067f0224194aa8e58d352b8ad3f04bcc4f210afd252edf4701fa111f42cba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/LoginTab.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "159081c0d5b5236345740fbf2b85894e75d08fb1e8979809beb53f3916fd094a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/ProfileTab.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e8c8ed2eaa5da1b6fb8d756e81f2ade2b2ed2115082a95bb65cb7f67f08589e3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/MiscTab.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "739b9103a53261b185972564a9aad179f0fc69774d99fa1c19ba95e8f48a5bb1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/CustomTab.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "1eb8a6105997f45dd9cb9b45a86b75db13237f23d878146535235066744ca6f6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/InvokeTab.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "fc86e6478fc3a069d2d0ae6f9e369fb1fec0764bfd34d34b011c0d176e77067b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/SkinsTab.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "3850f09950a6cb0857953fe29fffeb79c69120a05ebe32f651d7f6a2fa0f589d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/ChampsTab.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "59256929a0002a2eaecd96efd3020bafe82c922dd9928b8e13ae6ae90a91fba7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/SettingsTab.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "ab3b68c1f7d145adb93826bdac54308c126e47b9bf679c79d6a8ff9c1549e1c7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/DirectX.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "bf12afb7e0b713e15106b369e4377a0c4f07e1aba821f052efcb5864c7beabfd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/NtQueryInfoProc.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "d084dde599b1ca1650cff0f26c7e0bb62411c38b1cdbf773e03f946421b77ae1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/desta/Downloads/KBotExt-main/KBotExt-main/KralLoL/Auth.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "3a15638ca044c83510e699027a5cf7cf5e520821e1bd0e61191ae893ae048ef2"
+          }
+        }
+      ]
+    }
+  ]
+}

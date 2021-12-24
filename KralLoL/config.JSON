@@ -1,0 +1,46 @@
+{
+	"autoRename" : false,
+	"customTab" : 
+	{
+		"method" : "",
+		"requestText" : "",
+		"urlText" : ""
+	},
+	"debugger" : false,
+	"gameTab" : 
+	{
+		"autoAcceptEnabled" : false,
+		"autoBanId" : 0,
+		"backupId" : 0,
+		"dodgeOnBan" : false,
+		"instalockDelay" : 0,
+		"instalockEnabled" : false,
+		"instalockId" : 0,
+		"instantMessage" : "",
+		"instantMessageDelay" : 0
+	},
+	"infoTab" : 
+	{
+		"playerName" : ""
+	},
+	"invokeTab" : 
+	{
+		"args" : "",
+		"destination" : "",
+		"method" : ""
+	},
+	"leaguePath" : "C:/Riot Games/League of Legends/",
+	"loginTab" : 
+	{
+		"language" : "tr_TR",
+		"leagueArgs" : "--locale=tr_TR"
+	},
+	"selectedFont" : 0,
+	"streamProof" : false,
+	"window" : 
+	{
+		"height" : 500,
+		"width" : 700
+	}
+}
+

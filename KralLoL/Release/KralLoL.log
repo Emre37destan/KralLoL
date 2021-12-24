@@ -1,0 +1,9 @@
+﻿  DirectX.cpp
+D:\Lol Hileler\KralLoL-1.8.0\KralLoL\SkinsTab.h(92,17): warning C4244: '=': 'int' - 'short' dönüşümü; veri kaybı olabilir
+D:\Lol Hileler\KralLoL-1.8.0\KralLoL\ChampsTab.h(140,17): warning C4244: '=': 'int' - 'short' dönüşümü; veri kaybı olabilir
+  Kod üretiliyor
+  15 of 5176 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    31 functions had inline decision re-evaluated but remain unchanged
+  Kodun üretilmesi tamamlandı
+  KralLoL.vcxproj -> D:\Lol Hileler\KralLoL-1.8.0\Release\KralLoL.exe

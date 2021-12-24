@@ -1,0 +1,16 @@
+﻿  Auth.cpp
+  DirectX.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  imgui_widgets.cpp
+  json_reader.cpp
+  json_value.cpp
+  json_writer.cpp
+  KralLoL.cpp
+  Utils.cpp
+D:\Lol Hileler\KralLoL-1.8.0\KralLoL\Utils.cpp(162,20): warning C4018: '<': imzalı/imzasız uyuşmazlığı
+  Kod Üretiliyor...
+  KralLoL.vcxproj -> D:\Lol Hileler\KralLoL-1.8.0\Debug\KralLoL.exe
