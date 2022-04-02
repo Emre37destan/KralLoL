@@ -41,4 +41,4 @@
 * (Yamalı) ARAM güçlendirme
 
 ## SON!!
-* Proje Kral'a Aittir!
+* Proje Kral'a Aittir!!
