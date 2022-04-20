@@ -1,2 +1,0 @@
-C:\Users\desta\Downloads\KBotExt-main\KBotExt-main\x64\Debug\KralLoL.exe.lastcodeanalysissucceeded
-C:\Users\desta\Downloads\KBotExt-main\KBotExt-main\KralLoL\x64\Debug\NativeCodeAnalysis.read.1.tlog
