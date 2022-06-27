@@ -3,7 +3,7 @@
  
 ## KralLoL Hazır!!
 * Umarım Severek Kullanırsınız.
-<div align = "center"> <img src = "https://raw.githubusercontent.com/Emre37destan/KralLoL/main/KralLoL_New.png"> </div>
+<div align = "center"> <img src = "https://raw.githubusercontent.com/Emre37destan/KralLoL/main/KralLoL.png"> </div>
 
 
 ## Kullanılan teknolojiler!!
