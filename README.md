@@ -3,8 +3,13 @@
  
 ## KralLoL Hazır!!
 * Umarım Severek Kullanırsınız.
+* 
+# Resmimiz
 <div align = "center"> <img src = "https://raw.githubusercontent.com/Emre37destan/KralLoL/main/KralLoL_Logo.png"> </div>
 
+# Ayrıntılı Videomuz
+![KralLoL](http://img.youtube.com/vi/5g3DBYoJOQw/0.jpg)
+[Videoyu İzlemek Için Tıkla!](http://www.youtube.com/watch?v=5g3DBYoJOQw "KralLoL Anlatım!")
 
 ## Kullanılan teknolojiler!!
 
