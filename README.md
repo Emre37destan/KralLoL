@@ -1,6 +1,9 @@
 # KralLoL
  (Leaque Of Legends) İçin farklı ve kolaylaştırıcı bir uygulama sunarım!
- 
+
+<img alt="GitHub release (latest by date and asset)" src="https://img.shields.io/github/downloads/Emre37destan/KralLoL/1.0.0/KralLoL.32BIT.exe?style=plastic">
+<img alt="GitHub release (latest by date and asset)" src="https://img.shields.io/github/downloads/Emre37destan/KralLoL/1.0.0/KralLoL.64BIT.exe?style=plastic">
+
 ## KralLoL Hazır!!
 * Umarım Severek Kullanırsınız.
 * 
