@@ -1,12 +1,13 @@
 # KralLoL
  (Leaque Of Legends) İçin farklı ve kolaylaştırıcı bir uygulama sunarım!
 
-<img alt="GitHub release (latest by date and asset)" src="https://img.shields.io/github/downloads/Emre37destan/KralLoL/1.0.0/KralLoL.32BIT.exe?style=plastic">
-<img alt="GitHub release (latest by date and asset)" src="https://img.shields.io/github/downloads/Emre37destan/KralLoL/1.0.0/KralLoL.64BIT.exe?style=plastic">
+#Sürüm 1.0.0
+* [Sürüme Gitmek Için Tıkla!](https://github.com/Emre37destan/KralLoL/releases/tag/1.0.0 "KralLoL Anlatım!")
+<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.0/KralLoL.32BIT.exe?style=for-the-badge"> <img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.0/KralLoL.64BIT.exe?style=for-the-badge">
 
 ## KralLoL Hazır!!
 * Umarım Severek Kullanırsınız.
-* 
+
 # Resmimiz
 <div align = "center"> <img src = "https://raw.githubusercontent.com/Emre37destan/KralLoL/main/KralLoL_Logo.png"> </div>
 
