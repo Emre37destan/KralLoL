@@ -5,13 +5,13 @@ EN
 
 * [Previous Release 1.0.0](https://github.com/Emre37destan/KralLoL/releases/tag/1.0.0 "KralLoL Lecture!")
 
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.0/KralLoL.32BIT. exe?style=for-the-badge">
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.0/KralLoL.64BIT. exe?style=for-the-badge">
+<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.0/KralLoL.32BIT.exe?style=for-the-badge">
+<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.0/KralLoL.64BIT.exe?style=for-the-badge">
 
 * [Version 1.0.1](https://github.com/Emre37destan/KralLoL/releases/tag/1.0.1 "KralLoL Lecture!")
 
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.1/KralLoL.32BIT. exe?style=for-the-badge">
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.1/KralLoL.64BIT. exe?style=for-the-badge">
+<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.1/KralLoL.32BIT.exe?style=for-the-badge">
+<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.1/KralLoL.64BIT.exe?style=for-the-badge">
 
 
 ## KralLoL Ready!!
