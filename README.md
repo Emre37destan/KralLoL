@@ -3,32 +3,9 @@ EN
 # KingLoL
  I present a different and facilitating application for (Leaque Of Legends)!
 
-* [Previous Release 1.0.0](https://github.com/Emre37destan/KralLoL/releases/tag/1.0.0 "KralLoL Lecture!")
+* [Latest Release](https://github.com/Emre37destan/KralLoL/releases/latest "KralLoL Lecture!")
 
-* [Version 1.0.1](https://github.com/Emre37destan/KralLoL/releases/tag/1.0.1 "KralLoL Lecture!")
-
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.1/KralLoL.32BIT.EN.exe?style=for-the-badge">
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.1/KralLoL.64BIT.EN.exe?style=for-the-badge">
-
-* [Version 1.0.2](https://github.com/Emre37destan/KralLoL/releases/tag/1.0.2 "KralLoL Lecture!")
-
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.2/KralLoL.32BIT.EN.exe?style=for-the-badge">
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.2/KralLoL.64BIT.EN.exe?style=for-the-badge">
-
-* [Version 1.0.3](https://github.com/Emre37destan/KralLoL/releases/tag/1.0.3 "KralLoL Lecture!")
-
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.3/KralLoL.32BIT.EN.exe?style=for-the-badge">
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.3/KralLoL.64BIT.EN.exe?style=for-the-badge">
-
-* [Version 1.0.4](https://github.com/Emre37destan/KralLoL/releases/tag/1.0.4 "KralLoL Lecture!")
-
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.4/KralLoL.32BIT-EN.exe?style=for-the-badge">
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.4/KralLoL.64BIT-EN.exe?style=for-the-badge">
-
-* [Version 1.0.5](https://github.com/Emre37destan/KralLoL/releases/tag/1.0.5 "KralLoL Lecture!")
-
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.5/KralLoL.32BIT-EN.exe?style=for-the-badge">
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.5/KralLoL.64BIT-EN.exe?style=for-the-badge">
+<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.9/KralLoL.64BIT-EN.exe?style=for-the-badge">
 
 ## KralLoL Ready!!
 * Hope You Enjoy It!
@@ -77,35 +54,9 @@ TR
 # KralLoL
  (Leaque Of Legends) İçin farklı ve kolaylaştırıcı bir uygulama sunarım!
 
-* [Önceki Sürüm 1.0.0](https://github.com/Emre37destan/KralLoL/releases/tag/1.0.0 "KralLoL Anlatım!")
+* [Son Sürüm](https://github.com/Emre37destan/KralLoL/releases/latest "KralLoL Anlatım!")
 
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.0/KralLoL.32BIT.exe?style=for-the-badge">
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.0/KralLoL.64BIT.exe?style=for-the-badge">
-
-* [Sürüm 1.0.1](https://github.com/Emre37destan/KralLoL/releases/tag/1.0.1 "KralLoL Anlatım!")
-
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.1/KralLoL.32BIT.exe?style=for-the-badge">
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.1/KralLoL.64BIT.exe?style=for-the-badge">
-
-* [Sürüm 1.0.2](https://github.com/Emre37destan/KralLoL/releases/tag/1.0.2 "KralLoL Anlatım!")
-
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.2/KralLoL.32BIT.TR.exe?style=for-the-badge">
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.2/KralLoL.64BIT.TR.exe?style=for-the-badge">
-
-* [Sürüm 1.0.3](https://github.com/Emre37destan/KralLoL/releases/tag/1.0.3 "KralLoL Anlatım!")
-
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.3/KralLoL.32BIT.TR.exe?style=for-the-badge">
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.3/KralLoL.64BIT.TR.exe?style=for-the-badge">
-
-* [Sürüm 1.0.4](https://github.com/Emre37destan/KralLoL/releases/tag/1.0.4 "KralLoL Anlatım!")
-
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.4/KralLoL.32BIT-TR.exe?style=for-the-badge">
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.4/KralLoL.64BIT-TR.exe?style=for-the-badge">
-
-* [Sürüm 1.0.5](https://github.com/Emre37destan/KralLoL/releases/tag/1.0.5 "KralLoL Anlatım!")
-
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.5/KralLoL.32BIT-TR.exe?style=for-the-badge">
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.5/KralLoL.64BIT-TR.exe?style=for-the-badge">
+<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.9/KralLoL.64BIT-TR.exe?style=for-the-badge">
 
 ## KralLoL Hazır!!
 * Umarım Severek Kullanırsınız!
