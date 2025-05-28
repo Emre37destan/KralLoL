@@ -1,4 +1,4 @@
-#EN
+# EN
 
  I present a different and facilitating application for (Leaque Of Legends)!
 
@@ -48,7 +48,7 @@
 ## END!!
 * The Project Belongs To The King!!
 
-#TR
+# TR
 
  (Leaque Of Legends) İçin farklı ve kolaylaştırıcı bir uygulama sunarım!
 
