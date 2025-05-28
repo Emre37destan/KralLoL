@@ -1,11 +1,10 @@
-EN
+#EN
 
-# KingLoL
  I present a different and facilitating application for (Leaque Of Legends)!
 
 * [Latest Release](https://github.com/Emre37destan/KralLoL/releases/latest "KralLoL Lecture!")
 
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.9/KralLoL.64BIT-EN.exe?style=for-the-badge">
+<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.2.2/KralLoL-EN.exe?style=for-the-badge">
 
 ## KralLoL Ready!!
 * Hope You Enjoy It!
@@ -49,14 +48,13 @@ EN
 ## END!!
 * The Project Belongs To The King!!
 
-TR
+#TR
 
-# KralLoL
  (Leaque Of Legends) İçin farklı ve kolaylaştırıcı bir uygulama sunarım!
 
 * [Son Sürüm](https://github.com/Emre37destan/KralLoL/releases/latest "KralLoL Anlatım!")
 
-<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.0.9/KralLoL.64BIT-TR.exe?style=for-the-badge">
+<img alt="GitHub release (latest by SemVer and asset including pre-releases)" src="https://img.shields.io/github/downloads-pre/Emre37destan/KralLoL/1.2.2/KralLoL-TR.exe?style=for-the-badge">
 
 ## KralLoL Hazır!!
 * Umarım Severek Kullanırsınız!
